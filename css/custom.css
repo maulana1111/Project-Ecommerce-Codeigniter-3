@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Gotham Book';
+	src: url('../fonts/Gotham-Book.eot');
+	src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gotham-Book.woff') format('woff'),
+		url('../fonts/Gotham-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5,
+p, span, a, li, strong,
+button, input, select, option, textarea, label, div,
+table, tr, td, th {font-family: 'Gotham Book' !important;}
+
+p, span, a, li, strong,
+button, input, select, option, textarea, label, div,
+table, tr, td, th {font-size: 13px !important;}
+
+ul.products {list-style: none}
+ul.products > li {float: left}
+
+.color-light {color: #FFF}
+
+.text-underline {text-decoration: underline}
+
+input[type=number] {max-width: 50px;}
